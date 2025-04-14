@@ -33,7 +33,7 @@ def exit_program():
     GPIO.cleanup()
     win.destroy()
 
-# Radio buttons
+# LED buttons
 Radiobutton(win, text="Yellow", variable=var, value=YELLOW, command=select_led).pack(anchor='w')
 Radiobutton(win, text="Green", variable=var, value=GREEN, command=select_led).pack(anchor='w')
 Radiobutton(win, text="Red", variable=var, value=RED, command=select_led).pack(anchor='w')
